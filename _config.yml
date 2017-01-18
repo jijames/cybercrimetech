@@ -7,20 +7,20 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Cybercrime Technologies"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Joshua I. James"
+description              : "Research | Practice"
+url                      : "https://jijames.github.io"
+baseurl                  : #"/cybercrimetech"
+repository               : "jijames/cybercrimetech"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus" #, "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "cybercrimetech"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "cybercrimetech"
 facebook:
   username               :
   app_id                 :
@@ -64,8 +64,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "person"
+  name                   : "Joshua I. James"
   links: # An array of links to social media profiles
 
 # Analytics
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Joshua I. James"
+  avatar           : "/assets/images/REAPERlogo.png"
+  bio              : "Researcher, Professor"
+  location         : "South Korea"
+  email            : "joshua+web@cybercrimetech.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,22 +89,22 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "jijames"
   google_plus      :
-  keybase          :
+  keybase          : "joshuajames"
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "jijames"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "/3523577/joshua-i-james" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "cybercrimetech"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://youtube.com/c/cybercrimetech"
 
 
 # Reading Files
