@@ -2,10 +2,31 @@
 layout: archive
 ---
 
+{% include sidebar_right.html %}
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% for post in paginator.posts %}
-  {% include archive-single.html %}
+  {% assign mod = forloop.index | modulo: 2 %}
+  {% if mod != 0 %}
+      {% include archive-single.html %}
+  {% else %}
+{% include archive-single.html %}<br />
+<div class="{{ include.type | default: "list" }}__item">
+ <article class="archive__item">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CT-GHP-ARCHIVE -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8967540800069756"
+     data-ad-slot="6299740823"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</article>
+</div>
+  {% endif %}
 {% endfor %}
 
 {% include paginator.html %}

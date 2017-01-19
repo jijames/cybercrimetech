@@ -14,7 +14,7 @@ description              : "Research | Practice"
 url                      : "https://jijames.github.io"
 baseurl                  : #"/cybercrimetech"
 repository               : "jijames/cybercrimetech"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/placeholder.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -48,7 +48,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -57,7 +57,7 @@ yandex_site_verification :
 twitter:
   username               : "cybercrimetech"
 facebook:
-  username               :
+  username               : "CybercrimeTech"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -66,13 +66,19 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : "person"
   name                   : "Joshua I. James"
-  links: # An array of links to social media profiles
+  links: [
+    "https://www.facebook.com/CybercrimeTech",
+    "https://twitter.com/cybercrimetech",
+    "https://www.youtube.com/cybercrimetech",
+    "https://kr.linkedin.com/in/jijames",
+    "https://plus.google.com/+JoshuaJames_4n6"
+  ]
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" #, "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-15040925-1"
 
 
 # Site Author
@@ -80,14 +86,14 @@ author:
   name             : "Joshua I. James"
   avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Researcher, Professor"
-  location         : "South Korea"
-  email            : "joshua+web@cybercrimetech.com"
+  location         : #"South Korea"
+  email            : "joshua+2017@cybercrimetech.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "cybercrimetech"
   foursquare       :
   github           : "jijames"
   google_plus      :
@@ -110,7 +116,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - "_pages"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -143,7 +149,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -171,10 +176,10 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+permalink: /:year/:month/:title.html
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -241,6 +246,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
