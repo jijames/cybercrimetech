@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Joshua I. James"
 description              : "Research | Practice"
 url                      : "https://cybercrimetech.com"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : "jijames/cybercrimetech"
 teaser                   : "/assets/images/placeholder.png"
 # breadcrumbs            : false # true, false (default)
