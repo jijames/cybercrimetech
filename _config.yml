@@ -51,7 +51,7 @@ atom_feed:
 google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
-yandex_site_verification :
+yandex_site_verification : 7c47cac113e50386
 
 # Social Sharing
 twitter:
@@ -141,6 +141,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - migrate.rb
+  - newPost.sh
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
