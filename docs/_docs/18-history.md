@@ -4,8 +4,62 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-modified: 2017-01-24T10:55:37-05:00
+last_modified_at: 2017-04-05T12:40:09-04:00
 ---
+
+## Unreleased
+
+### Enhancements
+
+- Replace `modified` with `last_modified_at` to leverage various Jekyll plugins that utilize this variable. [#930](https://github.com/mmistakes/minimal-mistakes/pull/930)
+- Add Lithuanian localized UI text. [#924](https://github.com/mmistakes/minimal-mistakes/pull/924)
+- Improve print stylesheet by increasing text contrast, removing elements that don't need to be printed, expanding URLs, and reducing amount of blank pages. [#909](https://github.com/mmistakes/minimal-mistakes/issues/909)
+
+### Maintenance
+
+- Remove extra word in comment. [#911](https://github.com/mmistakes/minimal-mistakes/pull/911)
+- Fix typo in Utility Class docs. [#915](https://github.com/mmistakes/minimal-mistakes/pull/915)
+
+## [4.3.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.3.1)
+
+### Bug Fixes
+
+- Fix `.masthead` and `.page__footer` overlapping full screen video elements. [#933](https://github.com/mmistakes/minimal-mistakes/issues/933)
+- Correctly show Related Posts heading when UI Text data file is omitted and `related: true` in YAML Front Matter. [#901](https://github.com/mmistakes/minimal-mistakes/pull/901)
+
+## [4.3.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.3.0)
+
+### Enhancements
+
+- Add workaround to allow theme gem's `/assets/js/main.min.js` file to be overridden by a local version. Simply add the following YAML Front Matter to the file:
+  
+  ```
+  ---
+  layout: 
+  ---
+  ```
+
+  Any local customizations you make to `/assets/js/main.min.js` should now replace the theme gem's version.
+
+## [4.2.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.2.2)
+
+### Enhancements
+
+- Update [Greedy Navigation](https://github.com/lukejacksonn/GreedyNav) to flexbox version to make it more flexible when dealing with long site titles (`site.title`). [#836](https://github.com/mmistakes/minimal-mistakes/issues/836)
+- Adjust `box-shadow` in navigation and author sidebar. [#576](https://github.com/mmistakes/minimal-mistakes/pull/576)
+- Add Russian, Korean, and zh-TW localized UI text. [#815](https://github.com/mmistakes/minimal-mistakes/issues/815) [#834](https://github.com/mmistakes/minimal-mistakes/pull/834) [#838](https://github.com/mmistakes/minimal-mistakes/pull/838)
+
+### Bug Fixes
+
+- Fix Discourse embedded comments bug. [#823](https://github.com/mmistakes/minimal-mistakes/issues/823)
+- Fix `seo_author` default value in `seo.html` and add `author` meta. [#858](https://github.com/mmistakes/minimal-mistakes/pull/858)
+
+### Maintenance
+
+- Add theme meta info to `_layouts/default.html` and `main.css`.
+- Update README.
+- Improve the pagination and taxonomy archive documentation. [#826](https://github.com/mmistakes/minimal-mistakes/pull/826)
+- Add comments to `/docs/_config.yml` to clarify use of YAML references. [#847](https://github.com/mmistakes/minimal-mistakes/pull/847)
 
 ## [4.2.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.2.1)
 
