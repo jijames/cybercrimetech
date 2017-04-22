@@ -10,12 +10,16 @@ tags:
 - mobile acquisition
 - android
 - linux
-modified_time: '2017-04-21T19:54:44+09:00'
+modified_time: '2017-04-22T15:55:44+09:00'
 ---
 
 Today we are going to acquire an android smartphone (Samsung Note II) using Android Debug Bridge (ADB), netcat and dd. The system I am using is Ubuntu linux. On the "forensic workstation" you will need ADB and netcat installed. I'm using the excellent instructions from [here](https://freeandroidforensics.blogspot.kr/2014/08/live-imaging-android-device.html).
 
+Video forensic workstation Linux:
 {% include video id="UQYuaOC5v0I" provider="youtube" %}
+
+Video forensic workstation Windows:
+{% include video id="KKkvkCgMeMA" provider="youtube" %}
 
 First, download and install ADB from the [android developer website](https://developer.android.com/studio/releases/platform-tools.html#download).
 
