@@ -7,7 +7,7 @@ if [ "$1" ]; then
 DATE=$(date --iso)
 DATETIME=$(date --iso=seconds)
 TITLE=$(echo "$1" | sed 's/ /-/g')
-FILENAME="$DATE-${TITLE}.html"
+FILENAME="$DATE-${TITLE}.md"
 POST="_posts/$FILENAME"
 
 echo "---" > $POST
