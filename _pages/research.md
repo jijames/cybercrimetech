@@ -172,7 +172,7 @@ This site uses [COinS](https://en.wikipedia.org/wiki/COinS). For full-text artic
 
 ## Conferences/Presentations
 
-* * K. J. Park, S. M. Park, and J. I. James, “A Case Study of the 2016 Korean Cyber Command Compromise,” in Proceedings of the 16th European Conference on Cyber Warfare and Security, Dublin, Ireland, 2017, vol. ACPI, p. 774. 
+* K. J. Park, S. M. Park, and J. I. James, “A Case Study of the 2016 Korean Cyber Command Compromise,” in Proceedings of the 16th European Conference on Cyber Warfare and Security, Dublin, Ireland, 2017, vol. ACPI, p. 774. 
 * N. Akatyev and J. I. James, “United Nations Digital Blue Helmets as a Starting Point for Cyber Peacekeeping,” in Proceedings of the 16th European Conference on Cyber Warfare and Security, Dublin, Ireland, 2017, vol. ACPI, p. 774. 
 * Nikolay Akatyev, & Joshua I. James. (2016). Legislative Requirements for Cyber Peacekeeping. 2016 International Symposium “Security of Individual, State and Society: Challenges and Perspectives.” Perm, Russian Federation.
 * Sungmi Park, & Joshua I. James. (2016). Possession of Child Exploitation Material in Computer Temporary Internet Cache. 2016 International Symposium “Security of Individual, State and Society: Challenges and Perspectives.” Perm, Russian Federation.
