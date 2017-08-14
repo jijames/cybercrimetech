@@ -6,6 +6,7 @@ author: Joshua I. James
 tags:
 - infosec
 - dfir
+- DFRWS
 modified_time: '2017-08-08T07:33:05+09:00'
 ---
 
