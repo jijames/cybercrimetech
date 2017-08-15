@@ -15,8 +15,10 @@ Here are some files to test your password cracking skills. All of them can be do
 
 * Zip
   * [Easy](https://cybercrimetech.com/assets/data/easy.zip)
+  * [Easy Hash](https://cybercrimetech.com/assets/data/easy.zip.hash)
   * [Medium](https://cybercrimetech.com/assets/data/medium.zip)
   * [Hard](https://cybercrimetech.com/assets/data/hard.zip)
 * PDF
   * [Easy](https://cybercrimetech.com/assets/data/easy.pdf)
+  * [Easy Hash](https://cybercrimetech.com/assets/data/easy.pdf.hash)
   * [Hard](https://cybercrimetech.com/assets/data/hard.pdf)
