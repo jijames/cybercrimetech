@@ -69,11 +69,6 @@
     padding-left: 1em;
     z-index: 10;
   }
-
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-    margin-right: -1 * $right-sidebar-width;
-  }
 }
 
 .sidebar__right {
