@@ -2,7 +2,7 @@
 permalink: /Research/
 title: "Research"
 excerpt: "CybercrimeTech conducts cybercrime and digital forensic investigation research in a number of topic areas. This page is a list of our current work."
-modified: 2017-07-04T20:38:22+09:00
+modified: 2017-08-25T20:38:22+09:00
 ---
 
 {% include toc icon="columns" title="Contents" %}
@@ -62,7 +62,7 @@ Cybercrime Technologies conducts practical and theoretical research, mainly on D
 * [PLOS One](http://journals.plos.org/plosone/)
 
 ## Publications
-Some research-related, non-peer reviewed publications may be found at the Digital Forensic Research Group's website: DigitalFIRE.ucd.ie. Please note, this is a list of work Dr. Joshua I. James has been associated with. Other authors may have no affiliation with Cybercrime Technologies.
+Some research-related, non-peer reviewed publications may be found at the Digital Forensic Research Group's website: [DigitalFIRE.ucd.ie](dfire.ucd.ie). Please note, this is a list of work Dr. Joshua I. James has been associated with. Other authors may have no affiliation with Cybercrime Technologies.
 
 This site uses [COinS](https://en.wikipedia.org/wiki/COinS). For full-text articles see my [ResearchGate profile](https://www.researchgate.net/profile/Joshua_James2).
 
@@ -213,4 +213,4 @@ Internal publications are works that constitute a significant amount of novel re
 * Lu, T., J. James, P. Gladyshev. (2009). Validation of NW3C Results: COFEE GUI CONSOLE v1.1.2, INTERPOL.
 * Contributor. European Working Party on Information Technology Crime, Sections on Live Data Forensics and Encryption Detection. (2009). "Information Technology Crime Investigation Manual". Published by INTERPOL.
 
-This work is heavily influenced by Dr. Pavel Gladyshev. His work in formalization of digital investigation can be found at (formalforensics.org)[http://formalforensics.org]
+This work is heavily influenced by Dr. Pavel Gladyshev. His work in formalization of digital investigation can be found at [formalforensics.org](http://formalforensics.org)
