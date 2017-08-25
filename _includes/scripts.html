@@ -6,8 +6,10 @@
 
 <script>
 // Videos
-var videos = Array("Y4YggSTnD8","X_qmKQkUxac","SIKZ_xrJL5w","qoplmHxmOp4","lgRtF3CFq1s","eEaHdy4ytug","4bbyMEuTW7Y");
+var videos = Array("xY4YggSTnD8&t", "Y4YggSTnD8","X_qmKQkUxac","SIKZ_xrJL5w","qoplmHxmOp4","4lDmb-jRp5k","N1R3qZhUvMg","SSKcND0YBpU","KKkvkCgMeMA","lgRtF3CFq1s","3lz_X_c3UOE","QhJiOCwz-_I","UQYuaOC5v0I","OtLfnD6_WQY","eEaHdy4ytug","4bbyMEuTW7Y");
 var video = videos[Math.floor(Math.random()*videos.length)];
 
+ $( document ).ready(function() {
 $("#randVideo").html("<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/" + video + "' frameborder='0' allowfullscreen></iframe></div>");
+});
 </script>
