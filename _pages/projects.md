@@ -19,7 +19,7 @@ Code for most of our projects can be found at <a href="https://github.com/jijame
 <ul>
 <li>A small script to attempt to associate created digital artifacts with general user activities in a suspect system. This script collects all keywords for files created/accessed/modified at a particular time range. These keywords can be used to start to understand what actions where happening at the specified time.</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2014/04/indicators-of-anti-forensics.html">Indicators of Anti-Forensics</a></li>
+<li><a href="https://www.cybercrimetech.com/2014/04/indicators-of-anti-forensics.html">Indicators of Anti-Forensics</a></li>
 <ul>
 <li>(Digital Forensic Triage) Indicators of Anti-Forensics is a project ran with the KITRI Best of the Best Information Security Training Program to develop a tool to detect anti-forensic activities.</li>
 </ul>
@@ -35,23 +35,23 @@ Code for most of our projects can be found at <a href="https://github.com/jijame
 <ul>
 <li>Computer vision module for Autopsy. Developed by the BoB Outc4se team.</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2012/06/project-atom.html">Project ATOM</a></li>
+<li><a href="https://www.cybercrimetech.com/2012/06/project-atom.html">Project ATOM</a></li>
 <ul>
 <li>(Digital Forensics) Digital forensic investigation process automation framework</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2012/05/automated-network-triage-ant.html">Automated Network Triage (ANT)</a></li>
+<li><a href="https://www.cybercrimetech.com/2012/06/automated-network-triage-ant.html">Automated Network Triage (ANT)</a></li>
 <ul>
 <li>(Triage) Network-based suspect system sorting solution by likely&nbsp;relevance</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2012/05/goldfish.html">Goldfish</a></li>
+<li><a href="https://cybercrimetech.com/2012/06/goldfish.html">Goldfish</a></li>
 <ul>
 <li>(Digital Forensics) MAC OS X automated memory acquisition and analysis tool</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2012/05/rapid-evidence-acquisition-project-for.html" target="">Rapid Evidence&nbsp;Acquisition&nbsp;Project for Event Reconstruction (REAPERlive and REAPER Desktop)</a></li>
+<li><a href="https://www.cybercrimetech.com/2012/05/rapid-evidence-acquisition-project-for.html" target="">Rapid Evidence&nbsp;Acquisition&nbsp;Project for Event Reconstruction (REAPERlive and REAPER Desktop)</a></li>
 <ul>
 <li>(Digital Forensics) Fully-automated acquisition, processing and analysis system</li>
 </ul>
-<li><a href="http://www.cybercrimetech.com/2012/05/reaper-preview.html">REAPER Preview</a></li>
+<li><a href="https://www.cybercrimetech.com/2012/05/reaper-preview.html">REAPER Preview</a></li>
 <ul>
 <li>(Digital Forensics) Extremely fast exhibit previewing system</li>
 </ul>
